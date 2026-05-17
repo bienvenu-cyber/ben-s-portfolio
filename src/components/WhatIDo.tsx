@@ -87,24 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>SAAS BUILDER</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Création de plateformes SaaS innovantes adaptées au marché de l'Afrique francophone, 
+                intégrant le Mobile Money et l'automatisation via WhatsApp.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Supabase</div>
+                <div className="what-tags">WhatsApp API</div>
+                <div className="what-tags">MTN MoMo API</div>
+                <div className="what-tags">Railway</div>
+                <div className="what-tags">Lovable</div>
+                <div className="what-tags">TypeScript</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +126,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>FREELANCE & IA</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Missions sur mesure pour des clients en Afrique de l'Ouest, incluant 
+                le développement d'agents IA et la digitalisation des opérations.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">AI Agents</div>
+                <div className="what-tags">Cowork</div>
+                <div className="what-tags">Scanderia</div>
+                <div className="what-tags">Frigate NVR</div>
+                <div className="what-tags">MQTT</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Vercel</div>
+                <div className="what-tags">PHP (Legacy)</div>
               </div>
               <div className="what-arrow"></div>
             </div>

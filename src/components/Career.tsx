@@ -15,43 +15,41 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Fondateur & CEO</h4>
+                <h5>WapiWay / GoSell / Beyond Tech</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2023 — Présent</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Création et gestion de plusieurs produits SaaS ciblant le marché 
+              francophone africain. Automatisation WhatsApp, intégration de paiements 
+              Mobile Money, et solutions e-commerce pour créateurs.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Développeur Freelance</h4>
+                <h5>OLOUWA FEMI SERVICES</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2022 — Présent</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Missions sur mesure pour des clients en Afrique de l'Ouest. 
+              Digitalisation des opérations, intégration d'API complexes, et déploiements d'infrastructures cloud.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Développeur IA & Agents</h4>
+                <h5>Projets clients (Tolaro, Kamex)</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Création de systèmes multi-agents IA spécialisés (jusqu'à 20 agents) pour automatiser 
+              et piloter les opérations d'entreprises (export, investissement algorithmique, support client).
             </p>
           </div>
         </div>
