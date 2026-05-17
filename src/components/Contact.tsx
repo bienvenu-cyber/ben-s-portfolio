@@ -56,8 +56,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed by <span>Moncy</span>
-              <br /> Customized by <span>Bienvenu TONGUI</span>
+              Conçu & Développé par <span>Bienvenu TONGUI</span>
             </h2>
             <h5>
               <MdCopyright /> 2024
