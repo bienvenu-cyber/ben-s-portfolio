@@ -1,7 +1,9 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
+import { useLang } from "../context/LangProvider";
 
 const Contact = () => {
+  const { t } = useLang();
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
@@ -14,10 +16,8 @@ const Contact = () => {
                 bienvenu082003@gmail.com
               </a>
             </p>
-            <h4>Localisation</h4>
-            <p>
-              Parakou, Bénin
-            </p>
+            <h4>{t("Localisation", "Location")}</h4>
+            <p>Parakou, Bénin</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
@@ -56,11 +56,9 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Conçu & Développé par <span>Bienvenu TONGUI</span>
+              {t("Conçu & Développé par", "Built by")} <span>Bienvenu TONGUI</span>
             </h2>
-            <h5>
-              <MdCopyright /> 2024
-            </h5>
+            <h5><MdCopyright /> 2026</h5>
           </div>
         </div>
       </div>

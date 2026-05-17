@@ -4,11 +4,14 @@ import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import "./styles/Navbar.css";
+import { useLang } from "../context/LangProvider";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
 
 const Navbar = () => {
+  const { lang, setLang, t } = useLang();
+
   useEffect(() => {
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
@@ -39,34 +42,44 @@ const Navbar = () => {
       ScrollSmoother.refresh(true);
     });
   }, []);
+
   return (
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          BV
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:bienvenu082003@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          bienvenu082003@gmail.com
         </a>
         <ul>
           <li>
             <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
+              <HoverLinks text={t("À PROPOS", "ABOUT")} />
             </a>
           </li>
           <li>
             <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
+              <HoverLinks text={t("PROJETS", "WORK")} />
             </a>
           </li>
           <li>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
             </a>
+          </li>
+          <li>
+            <button
+              className="lang-toggle"
+              onClick={() => setLang(lang === "fr" ? "en" : "fr")}
+              data-cursor="disable"
+            >
+              {lang === "fr" ? "EN" : "FR"}
+            </button>
           </li>
         </ul>
       </div>

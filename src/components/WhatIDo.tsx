@@ -87,11 +87,12 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>SAAS BUILDER</h3>
+              <h3>SAAS & DEV</h3>
               <h4>Description</h4>
               <p>
-                Création de plateformes SaaS innovantes adaptées au marché de l'Afrique francophone, 
-                intégrant le Mobile Money et l'automatisation via WhatsApp.
+                Conception de plateformes SaaS full-stack pour le marché africain.
+                Intégration Mobile Money, WhatsApp API et solutions cloud adaptées
+                aux réalités de la zone UEMOA.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -99,10 +100,10 @@ const WhatIDo = () => {
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">Supabase</div>
                 <div className="what-tags">WhatsApp API</div>
-                <div className="what-tags">MTN MoMo API</div>
-                <div className="what-tags">Railway</div>
-                <div className="what-tags">Lovable</div>
+                <div className="what-tags">MTN MoMo</div>
                 <div className="what-tags">TypeScript</div>
+                <div className="what-tags">Railway</div>
+                <div className="what-tags">Docker</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,22 +127,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>FREELANCE & IA</h3>
+              <h3>AI & AUTOMATION</h3>
               <h4>Description</h4>
               <p>
-                Missions sur mesure pour des clients en Afrique de l'Ouest, incluant 
-                le développement d'agents IA et la digitalisation des opérations.
+                Conception et déploiement de systèmes IA et d'automatisations pour tout type d'entreprise.
+                Agents IA spécialisés, workflows no-code / low-code, intégrations MCP et API.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">AI Agents</div>
-                <div className="what-tags">Cowork</div>
-                <div className="what-tags">Scanderia</div>
-                <div className="what-tags">Frigate NVR</div>
-                <div className="what-tags">MQTT</div>
-                <div className="what-tags">Docker</div>
-                <div className="what-tags">Vercel</div>
-                <div className="what-tags">PHP (Legacy)</div>
+                <div className="what-tags">n8n</div>
+                <div className="what-tags">Make</div>
+                <div className="what-tags">Zapier</div>
+                <div className="what-tags">MCP</div>
+                <div className="what-tags">WhatsApp API</div>
+                <div className="what-tags">Cowork / Scanderia</div>
+                <div className="what-tags">LLM (GPT, Claude)</div>
               </div>
               <div className="what-arrow"></div>
             </div>
